@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tax.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id='heder2'>Calculate the value of your purchases here</h1>
+
+    <div class="main">
+
+        <form name="form">
+            <textarea type="text" name="textView" id="textview"></textarea>
+        </form>
+
+        <div class="clearfix">
+            <div class="col-3"><input type="button" value="C" class="button top-button" onclick="clearOutPut();"></div>
+            <div class="col-3"><input type="button" value="&#8756" class="button top-button"></div>
+            <!--3 dots-->
+            <div class="col-3"><input type="button" value="Del" class="button top-button" onclick="goBack();"></div>
+            <div class="col-3"><input type="button" value="&#247" class="button operater" onclick="answer('/');"></div>
+            <!--divide sign -->
+        </div>
+
+        <div class="clearfix">
+            <div class="col-3"><input type="button" value="7" class="button" onclick="answer(7);"></div>
+            <div class="col-3"><input type="button" value="8" class="button" onclick="answer(8);"></div>
+            <div class="col-3"><input type="button" value="9" class="button" onclick="answer(9);"></div>
+            <div class="col-3"><input type="button" value="&#215" class="button operater" onclick="answer('*');"></div>
+            <!-- multiplication sign-->
+        </div>
+
+        <div class="clearfix">
+            <div class="col-3"><input type="button" value="4" class="button" onclick="answer(4);"></div>
+            <div class="col-3"><input type="button" value="5" class="button" onclick="answer(5);"></div>
+            <div class="col-3"><input type="button" value="6" class="button" onclick="answer(6);"></div>
+            <div class="col-3"><input type="button" value="&#8722" class="button operater" onclick="answer('-');"></div>
+            <!--subtraction sign-->
+        </div>
+
+        <div class="clearfix">
+            <div class="col-3"><input type="button" value="1" class="button" onclick="answer(1);"></div>
+            <div class="col-3"><input type="button" value="2" class="button" onclick="answer(2);"></div>
+            <div class="col-3"><input type="button" value="3" class="button" onclick="answer(3);"></div>
+            <div class="col-3"><input type="button" value="&#43" class="button operater" onclick="answer('+');"></div>
+            <!--add sign-->
+        </div>
+
+        <div class="clearfix">
+            <div class="col-3"><input type="button" value="." class="button" onclick="answer('.');"></div>
+            <div class="col-3"><input type="button" value="0" class="button" onclick="answer(0);"></div>
+            <div class="col-6"><input type="button" value="&#61" class="button equal" onclick="equal();"></div>
+            <!--equal sign-->
+        </div>
+
+    </div>
+    <button id="back" onclick="goBake();"><a href="tax1.html">Take Me Back</a></button>
+
+
+    <!-- <script src="calculator.js"></script> -->
+    <script src="tax.js"></script>
+</body>
+
+</html>

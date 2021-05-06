@@ -1,0 +1,194 @@
+
+#main{
+    border: dashed 6px #000;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10%;
+    padding-bottom: 20px;
+
+}
+img{
+    width: 100px;
+    height: 70px;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 0;
+}
+#line1{
+    border: dashed 3px #000;
+    margin: 15px 0px;
+}
+#changeBackground{
+    width: 150px;
+    margin-left: auto;
+}
+h4{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#prsnt{
+    color: #000;
+}
+.clear{
+    clear: both;
+}
+#color{
+    width: 140px;
+    border-radius: 10px;
+    border: dashed 3px yellowgreen;
+}
+#qu{
+    color: black;
+}
+/* #btn{
+    background-color: black;
+    color: #ffffff;
+    border-radius: 10px;
+} */
+
+label , p {
+    font-size: 15px;
+    font-weight: bold;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    margin-left: 10px;
+    
+}
+.link{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+#btn{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 15px auto;
+    height: 20px;
+    width: 120px;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    background: rgb(110, 64, 2);
+    border-radius: 10px;
+    border-style: none;
+    color: #ffffff;
+}
+#btnNext{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 15px auto;
+    height: 20px;
+    width: 120px;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    background: rgb(110, 64, 2);
+    border-radius: 10px;
+    border-style: none;
+    color: #ffffff;
+}
+span{
+    color: red;
+    font-weight: bold;
+}
+
+/* ====================================  tax2 page start ==================================================== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #fceef5
+}
+#header2{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.main{
+    border-radius: 10%;
+   border: dashed 8px black;
+    text-align: center;
+    width: 400px;
+    margin: 30px auto;
+    padding: 30px;
+}
+form{
+    padding: 0 5px;
+   
+}
+#textview{
+    width: 100%;
+    height: 80px;
+    font-size: 23px;
+    padding: 0 10px;
+    pointer-events: none;
+    
+}
+
+.clearfix:before, .clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+}
+.col-3{
+    width: 25%;
+    padding: 5px;
+    float: left;
+}
+.col-6{
+    width: 50%;
+    padding: 5px;
+    float: left;
+}
+.button{
+    border-radius: 100%;
+    width: 100%;
+    height: 60px;
+    outline: none;
+}
+.button.top-button{
+    background: #892cdc;
+    border-color: #d6d6d6;
+    color: #fff;
+}
+.button.equal{
+    background: #ad3535;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 5%;
+}
+.button.operater{
+    background: #52057b;
+    border-color: #d6d6d6;
+    color: #fff;
+    font-size: 20px;
+}
+#back{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 15px auto;
+    height: 35px;
+    width: 250px;
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    background: rgb(110, 64, 2);
+    border-radius: 10px;
+    border-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}

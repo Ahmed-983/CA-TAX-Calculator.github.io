@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tax.css">
+    <title>CA-SALE-TAX 🧮</title>
+</head>
+
+<body>
+    <!--#/main div start -->
+    <div id="main">
+
+
+        <h1 id="title"><img src="CA-2.png" /> TAX CALCULATOR</h1>
+
+        <div id="line1"></div>
+        <div id="changeBackground">
+            <!--#/changeBackground start-->
+            <h4>Change Background</h4>
+
+            <input type="color" id="color" onchange="colors();" />
+        </div>
+        <!--#/changeBackground End-->
+        <div class="clear"></div>
+        <form>
+            <label for="state"><span>*</span> Select County :</label>
+            <select id="city" onchange="result();">
+                <option value="">Select</option>
+                <option value="10.25">Alameda</option>
+                <option value="8.25"> Alpine</option>
+                <option value="8.75">Amador</option>
+                <option value="8.25"> Butte</option>
+                <option value="8.25">Calaveras</option>
+                <option value="8.25">Colusa</option>
+                <option value="9.25">Contra Costa</option>
+                <option value="8.5">Del Norte</option>
+                <option value="8.25">El Dorado</option>
+                <option value="8.975">Fresno</option>
+                <option value="8.25">Glenn</option>
+                <option value="8.75">Humboldt</option>
+                <option value="8.75">Imperial</option>
+                <option value="8.75">Inyo</option>
+                <option value="8.25">Kern</option>
+                <option value="8.25">Kings</option>
+                <option value="8.25">Lake</option>
+                <option value="8.25">Lassen</option>
+                <option value="10.5">Los Angeles</option>
+                <option value="8.75">Madera</option>
+                <option value="9.25">Marin</option>
+                <option value="8.75">Mariposa</option>
+                <option value="8.375">Mendocino</option>
+                <option value="8.75">Merced</option>
+                <option value="8.25">Modoc</option>
+                <option value="8.25">Mono</option>
+                <option value="8.75">Monterey</option>
+                <option value="8.75">Napa</option>
+                <option value="8.5">Nevada</option>
+                <option value="8.75">Orange</option>
+                <option value="8.25">Placer</option>
+                <option value="8.25">Plumas</option>
+                <option value="8.75">Riverside</option>
+                <option value="8.75">Sacramento</option>
+                <option value="8.25">San Benito</option>
+                <option value="8.75">San Bernardino</option>
+                <option value="8.75">San Diego</option>
+                <option value="9.5">San Francisco</option>
+                <option value="8.75">San Joaquin</option>
+                <option value="8.25">San Luis Obispo</option>
+                <option value="9.75">San Mateo</option>
+                <option value="8.75">Santa Barbara</option>
+                <option value="9.5">Santa Clara</option>
+                <option value="9.5">Santa Cruz</option>
+                <option value="8.25">Shasta</option>
+                <option value="8.25">Sierra</option>
+                <option value="8.25">Siskiyou</option>
+                <option value="8.375">Solano</option>
+                <option value="9.125">Sonoma</option>
+                <option value="8.875">Stanislaus</option>
+                <option value="8.25">Sutter</option>
+                <option value="8.25">Tehama</option>
+                <option value="8.25">Trinity</option>
+                <option value="8.75">Tulare</option>
+                <option value="8.25">Tuolumne</option>
+                <option value="8.25">Ventura</option>
+                <option value="8.25">Yolo</option>
+                <option value="8.25">Yuba</option>
+            </select>
+            <span id="prsnt"></span><br /><br />
+            <label><span>*</span>Number of Quantity :</label>
+            <input type="text" id="quantity" placeholder="Enter Quantity here..." />
+            <span id="qu"></span>
+            <p>( if same item )</p><br />
+            <label><span>*</span> Price : $</label>
+            <input type="text" id="price" placeholder="$ Item Price">
+            <input type="button" value="Get Result" id="btn" />
+            <div id="line1"></div>
+            <label>Total Price With TAX : $</label>
+            <input type="text" id="total" readonly /><br /><br />
+        </form>
+        <p class="link">if you have more than one different product</p>
+        <p class="link">⏬</p>
+        <button id="btnNext"><a href="tax2.html">CLICK HERE</a></button>
+
+    </div>
+    <!--#/main din End-->
+
+
+
+
+    <script src="tax.js"></script>
+</body>
+
+</html>
